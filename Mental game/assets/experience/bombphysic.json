@@ -1,0 +1,40 @@
+{ 
+    
+    "bomb": [
+        
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   32, 15  ,  28, 27  ,  19, 32  ,  5, 28  ,  0, 15  ,  12, 5  ,  19, 5  ,  27, 8  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   28, 27  ,  32, 15  ,  32, 21  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   12, 5  ,  0, 15  ,  5, 8  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   0, 15  ,  5, 28  ,  0, 21  ]
+        } ,
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   5, 28  ,  19, 32  ,  13, 32  ]
+        }
+    ]
+    , 
+    "bomb (2)": [
+        
+        {
+            "density": 2, "friction": 0, "bounce": 0, 
+            "filter": { "categoryBits": 1, "maskBits": 65535 },
+            "shape": [   0, 32  ,  0, 0  ,  32, 0  ,  32, 32  ]
+        }
+    ]
+}
