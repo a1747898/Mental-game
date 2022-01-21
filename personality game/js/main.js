@@ -223,111 +223,111 @@ var load = {
         this.load.image('conbg2','personality game/assets/conscientiousness/back2.png');
         this.load.image('platform','personality game/assets/conscientiousness/platform.png');
         this.load.image('contile','personality game/assets/conscientiousness/ConTile.png');
-        this.load.image('brick','Mental game/assets/conscientiousness/Brick.png');
-        this.load.image('brickbuild','Mental game/assets/conscientiousness/brickbuild.png');
-        this.load.image('wood','Mental game/assets/conscientiousness/wood.png');
-        this.load.image('woodbuild','Mental game/assets/conscientiousness/woodbuild.png');
-        this.load.image('thatch','Mental game/assets/conscientiousness/thatch.png');
-        this.load.image('thatchbuild','Mental game/assets/conscientiousness/thatchbuild.png');
-        this.load.image('backin','Mental game/assets/conscientiousness/back_in.png');
-        this.load.image('backout','Mental game/assets/conscientiousness/back_out.png');
-        this.load.image('buildin','Mental game/assets/conscientiousness/build_in.png');
-        this.load.image('buildout','Mental game/assets/conscientiousness/build_out.png');
-        this.load.image('defensein','Mental game/assets/conscientiousness/defense_in.png');
-        this.load.image('defenseout','Mental game/assets/conscientiousness/defense_out.png');
-        this.load.image('leftin','Mental game/assets/conscientiousness/left_in.png');
-        this.load.image('leftout','Mental game/assets/conscientiousness/left_out.png');
-        this.load.image('rightin','Mental game/assets/conscientiousness/right_in.png');
-        this.load.image('rightout','Mental game/assets/conscientiousness/right_out.png');
-        this.load.image('menuin','Mental game/assets/conscientiousness/menu_in.png');
-        this.load.image('menuout','Mental game/assets/conscientiousness/menu_out.png');
-        this.load.image('nextin','Mental game/assets/conscientiousness/next_in.png');
-        this.load.image('nextout','Mental game/assets/conscientiousness/next_out.png');
-        this.load.image('closein','Mental game/assets/conscientiousness/close_in.png');
-        this.load.image('closeout','Mental game/assets/conscientiousness/close_out.png');
-        this.load.image('village','Mental game/assets/conscientiousness/pig_village.png');
-        this.load.image('pig1','Mental game/assets/conscientiousness/pig1.png');
-        this.load.image('pig2','Mental game/assets/conscientiousness/pig2.png');
-        this.load.image('pig3','Mental game/assets/conscientiousness/pig3.png');
-        this.load.image('pig4','Mental game/assets/conscientiousness/pig4.png');
-        this.load.image('pig5','Mental game/assets/conscientiousness/pig5.png');
-        this.load.image('pig6','Mental game/assets/conscientiousness/pig6.png');
-        this.load.image('pig7','Mental game/assets/conscientiousness/pig7.png');
-        this.load.image('pig8','Mental game/assets/conscientiousness/pig8.png');
-        this.load.image('pig9','Mental game/assets/conscientiousness/pig9.png');
-        this.load.image('pig0','Mental game/assets/conscientiousness/pig0.png');
-        this.load.image('tumb','Mental game/assets/conscientiousness/tumb.png');
-        this.load.image('conIntroduce0a','Mental game/assets/conscientiousness/con_introduce0a.png')
-        this.load.image('conIntroduce0b','Mental game/assets/conscientiousness/con_introduce0b.png')
-        this.load.image('conIntroduce0c','Mental game/assets/conscientiousness/con_introduce0c.png')
-        this.load.image('conIntroduce1','Mental game/assets/conscientiousness/con_introduce1.png');
-        this.load.image('conIntroduce2','Mental game/assets/conscientiousness/con_introduce2.png');
-        this.load.image('conIntroduce3','Mental game/assets/conscientiousness/con_introduce3.png');
-        this.load.image('conIntroduce4','Mental game/assets/conscientiousness/con_introduce4.png');
-        this.load.image('conIntroduce5','Mental game/assets/conscientiousness/con_introduce5.png');
-        this.load.image('conIntroduce6','Mental game/assets/conscientiousness/con_introduce6.png');
-        this.load.image('conIntroduce7','Mental game/assets/conscientiousness/con_introduce7.png');
-        this.load.image('congoal1','Mental game/assets/conscientiousness/lv1_goal.png');
-        this.load.image('congoal2','Mental game/assets/conscientiousness/lv2_goal.png');
-        this.load.image('congoal3','Mental game/assets/conscientiousness/lv3_goal.png');
-        this.load.image('maprole','Mental game/assets/conscientiousness/mapRole.png');
+        this.load.image('brick','personality game/assets/conscientiousness/Brick.png');
+        this.load.image('brickbuild','personality game/assets/conscientiousness/brickbuild.png');
+        this.load.image('wood','personality game/assets/conscientiousness/wood.png');
+        this.load.image('woodbuild','personality game/assets/conscientiousness/woodbuild.png');
+        this.load.image('thatch','personality game/assets/conscientiousness/thatch.png');
+        this.load.image('thatchbuild','personality game/assets/conscientiousness/thatchbuild.png');
+        this.load.image('backin','personality game/assets/conscientiousness/back_in.png');
+        this.load.image('backout','personality game/assets/conscientiousness/back_out.png');
+        this.load.image('buildin','personality game/assets/conscientiousness/build_in.png');
+        this.load.image('buildout','personality game/assets/conscientiousness/build_out.png');
+        this.load.image('defensein','personality game/assets/conscientiousness/defense_in.png');
+        this.load.image('defenseout','personality game/assets/conscientiousness/defense_out.png');
+        this.load.image('leftin','personality game/assets/conscientiousness/left_in.png');
+        this.load.image('leftout','personality game/assets/conscientiousness/left_out.png');
+        this.load.image('rightin','personality game/assets/conscientiousness/right_in.png');
+        this.load.image('rightout','personality game/assets/conscientiousness/right_out.png');
+        this.load.image('menuin','personality game/assets/conscientiousness/menu_in.png');
+        this.load.image('menuout','personality game/assets/conscientiousness/menu_out.png');
+        this.load.image('nextin','personality game/assets/conscientiousness/next_in.png');
+        this.load.image('nextout','personality game/assets/conscientiousness/next_out.png');
+        this.load.image('closein','personality game/assets/conscientiousness/close_in.png');
+        this.load.image('closeout','personality game/assets/conscientiousness/close_out.png');
+        this.load.image('village','personality game/assets/conscientiousness/pig_village.png');
+        this.load.image('pig1','personality game/assets/conscientiousness/pig1.png');
+        this.load.image('pig2','personality game/assets/conscientiousness/pig2.png');
+        this.load.image('pig3','personality game/assets/conscientiousness/pig3.png');
+        this.load.image('pig4','personality game/assets/conscientiousness/pig4.png');
+        this.load.image('pig5','personality game/assets/conscientiousness/pig5.png');
+        this.load.image('pig6','personality game/assets/conscientiousness/pig6.png');
+        this.load.image('pig7','personality game/assets/conscientiousness/pig7.png');
+        this.load.image('pig8','personality game/assets/conscientiousness/pig8.png');
+        this.load.image('pig9','personality game/assets/conscientiousness/pig9.png');
+        this.load.image('pig0','personality game/assets/conscientiousness/pig0.png');
+        this.load.image('tumb','personality game/assets/conscientiousness/tumb.png');
+        this.load.image('conIntroduce0a','personality game/assets/conscientiousness/con_introduce0a.png')
+        this.load.image('conIntroduce0b','personality game/assets/conscientiousness/con_introduce0b.png')
+        this.load.image('conIntroduce0c','personality game/assets/conscientiousness/con_introduce0c.png')
+        this.load.image('conIntroduce1','personality game/assets/conscientiousness/con_introduce1.png');
+        this.load.image('conIntroduce2','personality game/assets/conscientiousness/con_introduce2.png');
+        this.load.image('conIntroduce3','personality game/assets/conscientiousness/con_introduce3.png');
+        this.load.image('conIntroduce4','personality game/assets/conscientiousness/con_introduce4.png');
+        this.load.image('conIntroduce5','personality game/assets/conscientiousness/con_introduce5.png');
+        this.load.image('conIntroduce6','personality game/assets/conscientiousness/con_introduce6.png');
+        this.load.image('conIntroduce7','personality game/assets/conscientiousness/con_introduce7.png');
+        this.load.image('congoal1','personality game/assets/conscientiousness/lv1_goal.png');
+        this.load.image('congoal2','personality game/assets/conscientiousness/lv2_goal.png');
+        this.load.image('congoal3','personality game/assets/conscientiousness/lv3_goal.png');
+        this.load.image('maprole','personality game/assets/conscientiousness/mapRole.png');
 
-        this.load.tilemapTiledJSON('conmap','Mental game/assets/conscientiousness/conmap32x32_w320h144.json');
-        this.load.tilemapTiledJSON('conmap_end','Mental game/assets/conscientiousness/conmap_end.json');
-        this.load.spritesheet('conrobot','Mental game/assets/conscientiousness/pig.png',{
+        this.load.tilemapTiledJSON('conmap','personality game/assets/conscientiousness/conmap32x32_w320h144.json');
+        this.load.tilemapTiledJSON('conmap_end','personality game/assets/conscientiousness/conmap_end.json');
+        this.load.spritesheet('conrobot','personality game/assets/conscientiousness/pig.png',{
             frameWidth: 64,
             frameHeight: 64,
         });
-        this.load.spritesheet('wolve','Mental game/assets/conscientiousness/wolve.png',{
+        this.load.spritesheet('wolve','personality game/assets/conscientiousness/wolve.png',{
             frameWidth: 880,
             frameHeight: 880,
         });
-        this.load.spritesheet('consmoke','Mental game/assets/conscientiousness/consmoke.png',{
+        this.load.spritesheet('consmoke','personality game/assets/conscientiousness/consmoke.png',{
             frameWidth: 880,
             frameHeight: 880,
         });
 
         //神經質資源加載
-        this.load.image('testbg','Mental game/assets/neuroticism/assets/test1.png');//背景
-        this.load.image('mask','Mental game/assets/neuroticism/assets/mask.png');
-        this.load.image('neuground','Mental game/assets/neuroticism/assets/item/ground.png');//地板顏料
-        //this.load.image('goldenkey','Mental game/assets/neuroticism/assets/item/goldenkey.png');
-        //this.load.image('ironkey','Mental game/assets/neuroticism/assets/item/ironkey.png');
-        //this.load.image('woodenkey','Mental game/assets/neuroticism/assets/item/woodenkey.png');
-        this.load.image('neuUI','Mental game/assets/neuroticism/assets/item/itemUI.png');
-        this.load.image('passion','Mental game/assets/neuroticism/assets/item/passion.png');
-        this.load.tilemapTiledJSON('neumap','Mental game/assets/neuroticism/assets/item/castle.json');//配置地圖
-        this.load.image('neuIntroduce0','Mental game/assets/neuroticism/assets/item/neu_introduce0.png');
-        this.load.image('neuIntroduce1','Mental game/assets/neuroticism/assets/item/neu_introduce1.png');
-        this.load.image('neuIntroduce2','Mental game/assets/neuroticism/assets/item/neu_introduce2.png');
-        this.load.image('neuIntroduce3','Mental game/assets/neuroticism/assets/item/neu_introduce3.png');
-        this.load.image('neuIntroduce4','Mental game/assets/neuroticism/assets/item/neu_introduce4.png');
-        this.load.image('neuIntroduce5','Mental game/assets/neuroticism/assets/item/neu_introduce5.png');
-        this.load.image('neuIntroducea','Mental game/assets/neuroticism/assets/item/neu_introducea.png');
-        this.load.image('neuIntroduceb','Mental game/assets/neuroticism/assets/item/neu_introduceb.png');
-        this.load.image('block', 'Mental game/assets/neuroticism/assets/item/block.png');
-        this.load.image('bell', 'Mental game/assets/neuroticism/assets/item/bell.png');
-        this.load.image('goose', 'Mental game/assets/neuroticism/assets/item/goose.png');
-        this.load.image('harp', 'Mental game/assets/neuroticism/assets/item/harp.png');
-        this.load.image('coin', 'Mental game/assets/neuroticism/assets/item/coin.png');
-        this.load.image('rat', 'Mental game/assets/neuroticism/assets/item/rat.png');
-        this.load.image('cocroach', 'Mental game/assets/neuroticism/assets/item/cocroach.png');
-        this.load.image('giantSleep', 'Mental game/assets/neuroticism/assets/item/giant.png');
-        this.load.image('giantRun', 'Mental game/assets/neuroticism/assets/item/giant1.png');
-        //this.load.image('madefrom', 'Mental game/assets/neuroticism/assets/item/madefrom.png');
-        this.load.image('kulu', 'Mental game/assets/neuroticism/assets/item/kulu.png');
-        this.load.image('barrier', 'Mental game/assets/neuroticism/assets/item/passion.png');
-        this.load.spritesheet('player','Mental game/assets/neuroticism/assets/item/player2.png',
+        this.load.image('testbg','personality game/assets/neuroticism/assets/test1.png');//背景
+        this.load.image('mask','personality game/assets/neuroticism/assets/mask.png');
+        this.load.image('neuground','personality game/assets/neuroticism/assets/item/ground.png');//地板顏料
+        //this.load.image('goldenkey','personality game/assets/neuroticism/assets/item/goldenkey.png');
+        //this.load.image('ironkey','personality game/assets/neuroticism/assets/item/ironkey.png');
+        //this.load.image('woodenkey','personality game/assets/neuroticism/assets/item/woodenkey.png');
+        this.load.image('neuUI','personality game/assets/neuroticism/assets/item/itemUI.png');
+        this.load.image('passion','personality game/assets/neuroticism/assets/item/passion.png');
+        this.load.tilemapTiledJSON('neumap','personality game/assets/neuroticism/assets/item/castle.json');//配置地圖
+        this.load.image('neuIntroduce0','personality game/assets/neuroticism/assets/item/neu_introduce0.png');
+        this.load.image('neuIntroduce1','personality game/assets/neuroticism/assets/item/neu_introduce1.png');
+        this.load.image('neuIntroduce2','personality game/assets/neuroticism/assets/item/neu_introduce2.png');
+        this.load.image('neuIntroduce3','personality game/assets/neuroticism/assets/item/neu_introduce3.png');
+        this.load.image('neuIntroduce4','personality game/assets/neuroticism/assets/item/neu_introduce4.png');
+        this.load.image('neuIntroduce5','personality game/assets/neuroticism/assets/item/neu_introduce5.png');
+        this.load.image('neuIntroducea','personality game/assets/neuroticism/assets/item/neu_introducea.png');
+        this.load.image('neuIntroduceb','personality game/assets/neuroticism/assets/item/neu_introduceb.png');
+        this.load.image('block', 'personality game/assets/neuroticism/assets/item/block.png');
+        this.load.image('bell', 'personality game/assets/neuroticism/assets/item/bell.png');
+        this.load.image('goose', 'personality game/assets/neuroticism/assets/item/goose.png');
+        this.load.image('harp', 'personality game/assets/neuroticism/assets/item/harp.png');
+        this.load.image('coin', 'personality game/assets/neuroticism/assets/item/coin.png');
+        this.load.image('rat', 'personality game/assets/neuroticism/assets/item/rat.png');
+        this.load.image('cocroach', 'personality game/assets/neuroticism/assets/item/cocroach.png');
+        this.load.image('giantSleep', 'personality game/assets/neuroticism/assets/item/giant.png');
+        this.load.image('giantRun', 'personality game/assets/neuroticism/assets/item/giant1.png');
+        //this.load.image('madefrom', 'personality game/assets/neuroticism/assets/item/madefrom.png');
+        this.load.image('kulu', 'personality game/assets/neuroticism/assets/item/kulu.png');
+        this.load.image('barrier', 'personality game/assets/neuroticism/assets/item/passion.png');
+        this.load.spritesheet('player','personality game/assets/neuroticism/assets/item/player2.png',
         {
             frameWidth: 64,
             frameHeight: 64,
         });//角色
-        this.load.image('deathimage', 'Mental game/assets/neuroticism/assets/item/deathimage.png');
-        this.load.image('background', 'Mental game/assets/neuroticism/assets/item/background.png');
+        this.load.image('deathimage', 'personality game/assets/neuroticism/assets/item/deathimage.png');
+        this.load.image('background', 'personality game/assets/neuroticism/assets/item/background.png');
         //音源
-        this.load.audio('snore', 'Mental game/assets/neuroticism/assets/item/snore.mp3');
-        this.load.audio('footstep', 'Mental game/assets/neuroticism/assets/item/footstep.mp3');
-        this.load.audio('harpSound', 'Mental game/assets/neuroticism/assets/item/harp.mp3');
+        this.load.audio('snore', 'personality game/assets/neuroticism/assets/item/snore.mp3');
+        this.load.audio('footstep', 'personality game/assets/neuroticism/assets/item/footstep.mp3');
+        this.load.audio('harpSound', 'personality game/assets/neuroticism/assets/item/harp.mp3');
 
 
         //監聽load進度
