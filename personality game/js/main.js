@@ -166,168 +166,168 @@ var load = {
         */
 
         //開始畫面資源加載
-        this.load.image('sbg','assets/start/startbackground.png');
-        this.load.image('title','assets/start/title.png');
-		this.load.image('startbutton','assets/start/start.png');
+        this.load.image('sbg','Mental game/assets/start/startbackground.png');
+        this.load.image('title','Mental game/assets/start/title.png');
+		this.load.image('startbutton','Mental game/assets/start/start.png');
 
         //主畫面資源加載
-        this.load.image('mbg','assets/main/mainbackground.jpg');
-		this.load.image('ExtroversionButton','assets/main/Extroversion.png');
-        this.load.image('ExtroversionButton2','assets/main/Extroversion2.png');
-		this.load.image('NeuroticismButton','assets/main/Neuroticism.png');
-        this.load.image('NeuroticismButton2','assets/main/Neuroticism2.png');
-		this.load.image('AgreeablenessButton','assets/main/Agreeableness.png');
-        this.load.image('AgreeablenessButton2','assets/main/Agreeableness2.png');
-		this.load.image('ConscientiousnessButton','assets/main/Conscientiousness.png');
-        this.load.image('ConscientiousnessButton2','assets/main/Conscientiousness2.png');
-		this.load.image('ExperienceButton','assets/main/Experience.png');
-        this.load.image('ExperienceButton2','assets/main/Experience2.png');
+        this.load.image('mbg','Mental game/assets/main/mainbackground.jpg');
+		this.load.image('ExtroversionButton','Mental game/assets/main/Extroversion.png');
+        this.load.image('ExtroversionButton2','Mental game/assets/main/Extroversion2.png');
+		this.load.image('NeuroticismButton','Mental game/assets/main/Neuroticism.png');
+        this.load.image('NeuroticismButton2','Mental game/assets/main/Neuroticism2.png');
+		this.load.image('AgreeablenessButton','Mental game/assets/main/Agreeableness.png');
+        this.load.image('AgreeablenessButton2','Mental game/assets/main/Agreeableness2.png');
+		this.load.image('ConscientiousnessButton','Mental game/assets/main/Conscientiousness.png');
+        this.load.image('ConscientiousnessButton2','Mental game/assets/main/Conscientiousness2.png');
+		this.load.image('ExperienceButton','Mental game/assets/main/Experience.png');
+        this.load.image('ExperienceButton2','Mental game/assets/main/Experience2.png');
 
         //開放性資源加載
-        this.load.image('expstart','assets/experience/expstart.png');
-		this.load.image('expgoal','assets/experience/treehole.png');
-		this.load.image('expgoal2','assets/experience/worm.png');
-		this.load.image('expgoal3','assets/experience/queenandsol/queen.png');
-		this.load.image('tunel','assets/experience/tunel.png');
-		this.load.image('boundary_tiles','assets/experience/invisible.png');
-        this.load.image('base_tiles', 'assets/experience/[A]Grass1-Grass2_pipo.png')
-        this.load.image('bush_tiles', 'assets/experience/tree/tree.png')
-        this.load.image('yard_tiles', 'assets/experience/origion.png')
-        this.load.image('pussss_tiles', 'assets/experience/smoke/smoke.png')
-        this.load.tilemapTiledJSON('tilemap', 'assets/experience/base_tiles.json')
-        this.load.image('expIntroduce0','assets/experience/exp_introduce0.png');
-        this.load.image('expIntroduce1','assets/experience/exp_introduce1.png');
-        this.load.image('expIntroduce2','assets/experience/exp_introduce2.png');
-        this.load.image('expIntroduce3','assets/experience/exp_introduce3.png');
-        this.load.image('expIntroduce4','assets/experience/exp_introduce4.png');
-        this.load.image('expIntroduce5','assets/experience/exp_introduce5.png');
-		this.load.spritesheet('cards','assets/experience/Card.png',{
+        this.load.image('expstart','Mental game/assets/experience/expstart.png');
+		this.load.image('expgoal','Mental game/assets/experience/treehole.png');
+		this.load.image('expgoal2','Mental game/assets/experience/worm.png');
+		this.load.image('expgoal3','Mental game/assets/experience/queenandsol/queen.png');
+		this.load.image('tunel','Mental game/assets/experience/tunel.png');
+		this.load.image('boundary_tiles','Mental game/assets/experience/invisible.png');
+        this.load.image('base_tiles', 'Mental game/assets/experience/[A]Grass1-Grass2_pipo.png')
+        this.load.image('bush_tiles', 'Mental game/assets/experience/tree/tree.png')
+        this.load.image('yard_tiles', 'Mental game/assets/experience/origion.png')
+        this.load.image('pussss_tiles', 'Mental game/assets/experience/smoke/smoke.png')
+        this.load.tilemapTiledJSON('tilemap', 'Mental game/assets/experience/base_tiles.json')
+        this.load.image('expIntroduce0','Mental game/assets/experience/exp_introduce0.png');
+        this.load.image('expIntroduce1','Mental game/assets/experience/exp_introduce1.png');
+        this.load.image('expIntroduce2','Mental game/assets/experience/exp_introduce2.png');
+        this.load.image('expIntroduce3','Mental game/assets/experience/exp_introduce3.png');
+        this.load.image('expIntroduce4','Mental game/assets/experience/exp_introduce4.png');
+        this.load.image('expIntroduce5','Mental game/assets/experience/exp_introduce5.png');
+		this.load.spritesheet('cards','Mental game/assets/experience/Card.png',{
             frameWidth: 32,
             frameHeight: 32,
         });
-		this.load.spritesheet('CardStraight','assets/experience/CardStraight.png',{
+		this.load.spritesheet('CardStraight','Mental game/assets/experience/CardStraight.png',{
             frameWidth: 32,
             frameHeight: 32,
         });
-		this.load.spritesheet('alice','assets/experience/Alice.png',{
+		this.load.spritesheet('alice','Mental game/assets/experience/Alice.png',{
             frameWidth: 32,
             frameHeight: 32,
         });
-        this.load.audio('walk',['assets/experience/aud/414336__mativve__walking-3.wav'])
-        this.load.audio('hurt',['assets/experience/aud/371061__planetronik__video-game-bass.wav'])
-        this.load.tilemapTiledJSON('expmap', 'assets/experience/maze.json');
+        this.load.audio('walk',['Mental game/assets/experience/aud/414336__mativve__walking-3.wav'])
+        this.load.audio('hurt',['Mental game/assets/experience/aud/371061__planetronik__video-game-bass.wav'])
+        this.load.tilemapTiledJSON('expmap', 'Mental game/assets/experience/maze.json');
 
         //盡責性資源加載
-        this.load.image('conbg0','assets/conscientiousness/back0.png');
-        this.load.image('conbg1','assets/conscientiousness/back1.png');
-        this.load.image('conbg2','assets/conscientiousness/back2.png');
-        this.load.image('platform','assets/conscientiousness/platform.png');
-        this.load.image('contile','assets/conscientiousness/ConTile.png');
-        this.load.image('brick','assets/conscientiousness/brick.png');
-        this.load.image('brickbuild','assets/conscientiousness/brickbuild.png');
-        this.load.image('wood','assets/conscientiousness/wood.png');
-        this.load.image('woodbuild','assets/conscientiousness/woodbuild.png');
-        this.load.image('thatch','assets/conscientiousness/thatch.png');
-        this.load.image('thatchbuild','assets/conscientiousness/thatchbuild.png');
-        this.load.image('backin','assets/conscientiousness/back_in.png');
-        this.load.image('backout','assets/conscientiousness/back_out.png');
-        this.load.image('buildin','assets/conscientiousness/build_in.png');
-        this.load.image('buildout','assets/conscientiousness/build_out.png');
-        this.load.image('defensein','assets/conscientiousness/defense_in.png');
-        this.load.image('defenseout','assets/conscientiousness/defense_out.png');
-        this.load.image('leftin','assets/conscientiousness/left_in.png');
-        this.load.image('leftout','assets/conscientiousness/left_out.png');
-        this.load.image('rightin','assets/conscientiousness/right_in.png');
-        this.load.image('rightout','assets/conscientiousness/right_out.png');
-        this.load.image('menuin','assets/conscientiousness/menu_in.png');
-        this.load.image('menuout','assets/conscientiousness/menu_out.png');
-        this.load.image('nextin','assets/conscientiousness/next_in.png');
-        this.load.image('nextout','assets/conscientiousness/next_out.png');
-        this.load.image('closein','assets/conscientiousness/close_in.png');
-        this.load.image('closeout','assets/conscientiousness/close_out.png');
-        this.load.image('village','assets/conscientiousness/pig_village.png');
-        this.load.image('pig1','assets/conscientiousness/pig1.png');
-        this.load.image('pig2','assets/conscientiousness/pig2.png');
-        this.load.image('pig3','assets/conscientiousness/pig3.png');
-        this.load.image('pig4','assets/conscientiousness/pig4.png');
-        this.load.image('pig5','assets/conscientiousness/pig5.png');
-        this.load.image('pig6','assets/conscientiousness/pig6.png');
-        this.load.image('pig7','assets/conscientiousness/pig7.png');
-        this.load.image('pig8','assets/conscientiousness/pig8.png');
-        this.load.image('pig9','assets/conscientiousness/pig9.png');
-        this.load.image('pig0','assets/conscientiousness/pig0.png');
-        this.load.image('tumb','assets/conscientiousness/tumb.png');
-        this.load.image('conIntroduce0a','assets/conscientiousness/con_introduce0a.png')
-        this.load.image('conIntroduce0b','assets/conscientiousness/con_introduce0b.png')
-        this.load.image('conIntroduce0c','assets/conscientiousness/con_introduce0c.png')
-        this.load.image('conIntroduce1','assets/conscientiousness/con_introduce1.png');
-        this.load.image('conIntroduce2','assets/conscientiousness/con_introduce2.png');
-        this.load.image('conIntroduce3','assets/conscientiousness/con_introduce3.png');
-        this.load.image('conIntroduce4','assets/conscientiousness/con_introduce4.png');
-        this.load.image('conIntroduce5','assets/conscientiousness/con_introduce5.png');
-        this.load.image('conIntroduce6','assets/conscientiousness/con_introduce6.png');
-        this.load.image('conIntroduce7','assets/conscientiousness/con_introduce7.png');
-        this.load.image('congoal1','assets/conscientiousness/lv1_goal.png');
-        this.load.image('congoal2','assets/conscientiousness/lv2_goal.png');
-        this.load.image('congoal3','assets/conscientiousness/lv3_goal.png');
-        this.load.image('maprole','assets/conscientiousness/maprole.png');
+        this.load.image('conbg0','Mental game/assets/conscientiousness/back0.png');
+        this.load.image('conbg1','Mental game/assets/conscientiousness/back1.png');
+        this.load.image('conbg2','Mental game/assets/conscientiousness/back2.png');
+        this.load.image('platform','Mental game/assets/conscientiousness/platform.png');
+        this.load.image('contile','Mental game/assets/conscientiousness/ConTile.png');
+        this.load.image('brick','Mental game/assets/conscientiousness/Brick.png');
+        this.load.image('brickbuild','Mental game/assets/conscientiousness/brickbuild.png');
+        this.load.image('wood','Mental game/assets/conscientiousness/wood.png');
+        this.load.image('woodbuild','Mental game/assets/conscientiousness/woodbuild.png');
+        this.load.image('thatch','Mental game/assets/conscientiousness/thatch.png');
+        this.load.image('thatchbuild','Mental game/assets/conscientiousness/thatchbuild.png');
+        this.load.image('backin','Mental game/assets/conscientiousness/back_in.png');
+        this.load.image('backout','Mental game/assets/conscientiousness/back_out.png');
+        this.load.image('buildin','Mental game/assets/conscientiousness/build_in.png');
+        this.load.image('buildout','Mental game/assets/conscientiousness/build_out.png');
+        this.load.image('defensein','Mental game/assets/conscientiousness/defense_in.png');
+        this.load.image('defenseout','Mental game/assets/conscientiousness/defense_out.png');
+        this.load.image('leftin','Mental game/assets/conscientiousness/left_in.png');
+        this.load.image('leftout','Mental game/assets/conscientiousness/left_out.png');
+        this.load.image('rightin','Mental game/assets/conscientiousness/right_in.png');
+        this.load.image('rightout','Mental game/assets/conscientiousness/right_out.png');
+        this.load.image('menuin','Mental game/assets/conscientiousness/menu_in.png');
+        this.load.image('menuout','Mental game/assets/conscientiousness/menu_out.png');
+        this.load.image('nextin','Mental game/assets/conscientiousness/next_in.png');
+        this.load.image('nextout','Mental game/assets/conscientiousness/next_out.png');
+        this.load.image('closein','Mental game/assets/conscientiousness/close_in.png');
+        this.load.image('closeout','Mental game/assets/conscientiousness/close_out.png');
+        this.load.image('village','Mental game/assets/conscientiousness/pig_village.png');
+        this.load.image('pig1','Mental game/assets/conscientiousness/pig1.png');
+        this.load.image('pig2','Mental game/assets/conscientiousness/pig2.png');
+        this.load.image('pig3','Mental game/assets/conscientiousness/pig3.png');
+        this.load.image('pig4','Mental game/assets/conscientiousness/pig4.png');
+        this.load.image('pig5','Mental game/assets/conscientiousness/pig5.png');
+        this.load.image('pig6','Mental game/assets/conscientiousness/pig6.png');
+        this.load.image('pig7','Mental game/assets/conscientiousness/pig7.png');
+        this.load.image('pig8','Mental game/assets/conscientiousness/pig8.png');
+        this.load.image('pig9','Mental game/assets/conscientiousness/pig9.png');
+        this.load.image('pig0','Mental game/assets/conscientiousness/pig0.png');
+        this.load.image('tumb','Mental game/assets/conscientiousness/tumb.png');
+        this.load.image('conIntroduce0a','Mental game/assets/conscientiousness/con_introduce0a.png')
+        this.load.image('conIntroduce0b','Mental game/assets/conscientiousness/con_introduce0b.png')
+        this.load.image('conIntroduce0c','Mental game/assets/conscientiousness/con_introduce0c.png')
+        this.load.image('conIntroduce1','Mental game/assets/conscientiousness/con_introduce1.png');
+        this.load.image('conIntroduce2','Mental game/assets/conscientiousness/con_introduce2.png');
+        this.load.image('conIntroduce3','Mental game/assets/conscientiousness/con_introduce3.png');
+        this.load.image('conIntroduce4','Mental game/assets/conscientiousness/con_introduce4.png');
+        this.load.image('conIntroduce5','Mental game/assets/conscientiousness/con_introduce5.png');
+        this.load.image('conIntroduce6','Mental game/assets/conscientiousness/con_introduce6.png');
+        this.load.image('conIntroduce7','Mental game/assets/conscientiousness/con_introduce7.png');
+        this.load.image('congoal1','Mental game/assets/conscientiousness/lv1_goal.png');
+        this.load.image('congoal2','Mental game/assets/conscientiousness/lv2_goal.png');
+        this.load.image('congoal3','Mental game/assets/conscientiousness/lv3_goal.png');
+        this.load.image('maprole','Mental game/assets/conscientiousness/mapRole.png');
 
-        this.load.tilemapTiledJSON('conmap','assets/conscientiousness/conmap32x32_w320h144.json');
-        this.load.tilemapTiledJSON('conmap_end','assets/conscientiousness/conmap_end.json');
-        this.load.spritesheet('conrobot','assets/conscientiousness/Pig.png',{
+        this.load.tilemapTiledJSON('conmap','Mental game/assets/conscientiousness/conmap32x32_w320h144.json');
+        this.load.tilemapTiledJSON('conmap_end','Mental game/assets/conscientiousness/conmap_end.json');
+        this.load.spritesheet('conrobot','Mental game/assets/conscientiousness/pig.png',{
             frameWidth: 64,
             frameHeight: 64,
         });
-        this.load.spritesheet('wolve','assets/conscientiousness/wolve.png',{
+        this.load.spritesheet('wolve','Mental game/assets/conscientiousness/wolve.png',{
             frameWidth: 880,
             frameHeight: 880,
         });
-        this.load.spritesheet('consmoke','assets/conscientiousness/consmoke.png',{
+        this.load.spritesheet('consmoke','Mental game/assets/conscientiousness/consmoke.png',{
             frameWidth: 880,
             frameHeight: 880,
         });
 
         //神經質資源加載
-        this.load.image('testbg','assets/neuroticism/assets/test1.png');//背景
-        this.load.image('mask','assets/neuroticism/assets/mask.png');
-        this.load.image('neuground','assets/neuroticism/assets/item/ground.png');//地板顏料
-        this.load.image('goldenkey','assets/neuroticism/assets/item/goldenkey.png');
-        //this.load.image('ironkey','assets/neuroticism/assets/item/ironkey.png');
-        //this.load.image('woodenkey','assets/neuroticism/assets/item/woodenkey.png');
-        this.load.image('neuUI','assets/neuroticism/assets/item/itemUI.png');
-        this.load.image('passion','assets/neuroticism/assets/item/passion.png');
-        this.load.tilemapTiledJSON('neumap','assets/neuroticism/assets/item/castle.json');//配置地圖
-        this.load.image('neuIntroduce0','assets/neuroticism/assets/item/neu_introduce0.png');
-        this.load.image('neuIntroduce1','assets/neuroticism/assets/item/neu_introduce1.png');
-        this.load.image('neuIntroduce2','assets/neuroticism/assets/item/neu_introduce2.png');
-        this.load.image('neuIntroduce3','assets/neuroticism/assets/item/neu_introduce3.png');
-        this.load.image('neuIntroduce4','assets/neuroticism/assets/item/neu_introduce4.png');
-        this.load.image('neuIntroduce5','assets/neuroticism/assets/item/neu_introduce5.png');
-        this.load.image('neuIntroducea','assets/neuroticism/assets/item/neu_introducea.png');
-        this.load.image('neuIntroduceb','assets/neuroticism/assets/item/neu_introduceb.png');
-        this.load.image('block', 'assets/neuroticism/assets/item/block.png');
-        this.load.image('bell', 'assets/neuroticism/assets/item/bell.png');
-        this.load.image('goose', 'assets/neuroticism/assets/item/goose.png');
-        this.load.image('harp', 'assets/neuroticism/assets/item/harp.png');
-        this.load.image('coin', 'assets/neuroticism/assets/item/coin.png');
-        this.load.image('rat', 'assets/neuroticism/assets/item/rat.png');
-        this.load.image('cocroach', 'assets/neuroticism/assets/item/cocroach.png');
-        this.load.image('giantSleep', 'assets/neuroticism/assets/item/giant.png');
-        this.load.image('giantRun', 'assets/neuroticism/assets/item/giant1.png');
-        this.load.image('madefrom', 'assets/neuroticism/assets/item/madefrom.png');
-        this.load.image('kulu', 'assets/neuroticism/assets/item/kulu.png');
-        this.load.image('barrier', 'assets/neuroticism/assets/item/passion.png');
-        this.load.spritesheet('player','assets/neuroticism/assets/item/player2.png',
+        this.load.image('testbg','Mental game/assets/neuroticism/assets/test1.png');//背景
+        this.load.image('mask','Mental game/assets/neuroticism/assets/mask.png');
+        this.load.image('neuground','Mental game/assets/neuroticism/assets/item/ground.png');//地板顏料
+        //this.load.image('goldenkey','Mental game/assets/neuroticism/assets/item/goldenkey.png');
+        //this.load.image('ironkey','Mental game/assets/neuroticism/assets/item/ironkey.png');
+        //this.load.image('woodenkey','Mental game/assets/neuroticism/assets/item/woodenkey.png');
+        this.load.image('neuUI','Mental game/assets/neuroticism/assets/item/itemUI.png');
+        this.load.image('passion','Mental game/assets/neuroticism/assets/item/passion.png');
+        this.load.tilemapTiledJSON('neumap','Mental game/assets/neuroticism/assets/item/castle.json');//配置地圖
+        this.load.image('neuIntroduce0','Mental game/assets/neuroticism/assets/item/neu_introduce0.png');
+        this.load.image('neuIntroduce1','Mental game/assets/neuroticism/assets/item/neu_introduce1.png');
+        this.load.image('neuIntroduce2','Mental game/assets/neuroticism/assets/item/neu_introduce2.png');
+        this.load.image('neuIntroduce3','Mental game/assets/neuroticism/assets/item/neu_introduce3.png');
+        this.load.image('neuIntroduce4','Mental game/assets/neuroticism/assets/item/neu_introduce4.png');
+        this.load.image('neuIntroduce5','Mental game/assets/neuroticism/assets/item/neu_introduce5.png');
+        this.load.image('neuIntroducea','Mental game/assets/neuroticism/assets/item/neu_introducea.png');
+        this.load.image('neuIntroduceb','Mental game/assets/neuroticism/assets/item/neu_introduceb.png');
+        this.load.image('block', 'Mental game/assets/neuroticism/assets/item/block.png');
+        this.load.image('bell', 'Mental game/assets/neuroticism/assets/item/bell.png');
+        this.load.image('goose', 'Mental game/assets/neuroticism/assets/item/goose.png');
+        this.load.image('harp', 'Mental game/assets/neuroticism/assets/item/harp.png');
+        this.load.image('coin', 'Mental game/assets/neuroticism/assets/item/coin.png');
+        this.load.image('rat', 'Mental game/assets/neuroticism/assets/item/rat.png');
+        this.load.image('cocroach', 'Mental game/assets/neuroticism/assets/item/cocroach.png');
+        this.load.image('giantSleep', 'Mental game/assets/neuroticism/assets/item/giant.png');
+        this.load.image('giantRun', 'Mental game/assets/neuroticism/assets/item/giant1.png');
+        //this.load.image('madefrom', 'Mental game/assets/neuroticism/assets/item/madefrom.png');
+        this.load.image('kulu', 'Mental game/assets/neuroticism/assets/item/kulu.png');
+        this.load.image('barrier', 'Mental game/assets/neuroticism/assets/item/passion.png');
+        this.load.spritesheet('player','Mental game/assets/neuroticism/assets/item/player2.png',
         {
             frameWidth: 64,
             frameHeight: 64,
         });//角色
-        this.load.image('deathimage', 'assets/neuroticism/assets/item/deathimage.png');
-        this.load.image('background', 'assets/neuroticism/assets/item/background.png');
+        this.load.image('deathimage', 'Mental game/assets/neuroticism/assets/item/deathimage.png');
+        this.load.image('background', 'Mental game/assets/neuroticism/assets/item/background.png');
         //音源
-        this.load.audio('snore', 'assets/neuroticism/assets/item/snore.mp3');
-        this.load.audio('footstep', 'assets/neuroticism/assets/item/footstep.mp3');
-        this.load.audio('harpSound', 'assets/neuroticism/assets/item/harp.mp3');
+        this.load.audio('snore', 'Mental game/assets/neuroticism/assets/item/snore.mp3');
+        this.load.audio('footstep', 'Mental game/assets/neuroticism/assets/item/footstep.mp3');
+        this.load.audio('harpSound', 'Mental game/assets/neuroticism/assets/item/harp.mp3');
 
 
         //監聽load進度
@@ -651,7 +651,7 @@ var experience1 = {
         //時間顯示
         const clock = new Clock(this);
         // 2:30 in seconds
-        this.initialTime = 30;
+        this.initialTime = 40;
         text1 = this.add.text(800, 10, 'Countdown: ' + formatTime(this.initialTime)).setTint(0x66ff00).setDepth(4);
         //時間顯示
         // 2:30 in seconds
@@ -915,7 +915,7 @@ var experience2 = {
         //時間顯示
         const clock = new Clock(this);
         // 2:30 in seconds
-        this.initialTime = 30;
+        this.initialTime = 40;
         text1 = this.add.text(800, 10, 'Countdown: ' + formatTime(this.initialTime)).setTint(0x66ff00).setDepth(4);
 
         // Each 1000 ms call onEvent
@@ -1420,7 +1420,7 @@ var experience3 = {
     },
 
     update: function(){
-        console.log(flashFlag,invincible);
+        //console.log(flashFlag,invincible);
 
         if(change == true){
             expstate = 1, lastState = 0, inBush = false, lastAttachment = false, attachment = false;
@@ -2520,7 +2520,6 @@ var conscientiousnessUI = {
         outsideframe.setStrokeStyle(2, 0x545454);
         /*
         this.tweens.add({
-
             targets: outsideframe,
             scaleX: 1,
             scaleY: 1,
@@ -5374,15 +5373,10 @@ var game = new Phaser.Game(config);
 /*
 var ex = {
     key: '',
-
     preload: function(){
-
     },
-
     create: function(){
-
     },
-
     update: function(){
         
     },
