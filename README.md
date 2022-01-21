@@ -1,3 +1,3 @@
-# Mental-game
+# personality
 
 test
