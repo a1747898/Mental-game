@@ -166,63 +166,63 @@ var load = {
         */
 
         //開始畫面資源加載
-        this.load.image('sbg','Mental game/assets/start/startbackground.png');
-        this.load.image('title','Mental game/assets/start/title.png');
-		this.load.image('startbutton','Mental game/assets/start/start.png');
+        this.load.image('sbg','personality game/assets/start/startbackground.png');
+        this.load.image('title','personality game/assets/start/title.png');
+		this.load.image('startbutton','personality game/assets/start/start.png');
 
         //主畫面資源加載
-        this.load.image('mbg','Mental game/assets/main/mainbackground.jpg');
-		this.load.image('ExtroversionButton','Mental game/assets/main/Extroversion.png');
-        this.load.image('ExtroversionButton2','Mental game/assets/main/Extroversion2.png');
-		this.load.image('NeuroticismButton','Mental game/assets/main/Neuroticism.png');
-        this.load.image('NeuroticismButton2','Mental game/assets/main/Neuroticism2.png');
-		this.load.image('AgreeablenessButton','Mental game/assets/main/Agreeableness.png');
-        this.load.image('AgreeablenessButton2','Mental game/assets/main/Agreeableness2.png');
-		this.load.image('ConscientiousnessButton','Mental game/assets/main/Conscientiousness.png');
-        this.load.image('ConscientiousnessButton2','Mental game/assets/main/Conscientiousness2.png');
-		this.load.image('ExperienceButton','Mental game/assets/main/Experience.png');
-        this.load.image('ExperienceButton2','Mental game/assets/main/Experience2.png');
+        this.load.image('mbg','personality game/assets/main/mainbackground.jpg');
+		this.load.image('ExtroversionButton','personality game/assets/main/Extroversion.png');
+        this.load.image('ExtroversionButton2','personality game/assets/main/Extroversion2.png');
+		this.load.image('NeuroticismButton','personality game/assets/main/Neuroticism.png');
+        this.load.image('NeuroticismButton2','personality game/assets/main/Neuroticism2.png');
+		this.load.image('AgreeablenessButton','personality game/assets/main/Agreeableness.png');
+        this.load.image('AgreeablenessButton2','personality game/assets/main/Agreeableness2.png');
+		this.load.image('ConscientiousnessButton','personality game/assets/main/Conscientiousness.png');
+        this.load.image('ConscientiousnessButton2','personality game/assets/main/Conscientiousness2.png');
+		this.load.image('ExperienceButton','personality game/assets/main/Experience.png');
+        this.load.image('ExperienceButton2','personality game/assets/main/Experience2.png');
 
         //開放性資源加載
-        this.load.image('expstart','Mental game/assets/experience/expstart.png');
-		this.load.image('expgoal','Mental game/assets/experience/treehole.png');
-		this.load.image('expgoal2','Mental game/assets/experience/worm.png');
-		this.load.image('expgoal3','Mental game/assets/experience/queenandsol/queen.png');
-		this.load.image('tunel','Mental game/assets/experience/tunel.png');
-		this.load.image('boundary_tiles','Mental game/assets/experience/invisible.png');
-        this.load.image('base_tiles', 'Mental game/assets/experience/[A]Grass1-Grass2_pipo.png')
-        this.load.image('bush_tiles', 'Mental game/assets/experience/tree/tree.png')
-        this.load.image('yard_tiles', 'Mental game/assets/experience/origion.png')
-        this.load.image('pussss_tiles', 'Mental game/assets/experience/smoke/smoke.png')
-        this.load.tilemapTiledJSON('tilemap', 'Mental game/assets/experience/base_tiles.json')
-        this.load.image('expIntroduce0','Mental game/assets/experience/exp_introduce0.png');
-        this.load.image('expIntroduce1','Mental game/assets/experience/exp_introduce1.png');
-        this.load.image('expIntroduce2','Mental game/assets/experience/exp_introduce2.png');
-        this.load.image('expIntroduce3','Mental game/assets/experience/exp_introduce3.png');
-        this.load.image('expIntroduce4','Mental game/assets/experience/exp_introduce4.png');
-        this.load.image('expIntroduce5','Mental game/assets/experience/exp_introduce5.png');
-		this.load.spritesheet('cards','Mental game/assets/experience/Card.png',{
+        this.load.image('expstart','personality game/assets/experience/expstart.png');
+		this.load.image('expgoal','personality game/assets/experience/treehole.png');
+		this.load.image('expgoal2','personality game/assets/experience/worm.png');
+		this.load.image('expgoal3','personality game/assets/experience/queenandsol/queen.png');
+		this.load.image('tunel','personality game/assets/experience/tunel.png');
+		this.load.image('boundary_tiles','personality game/assets/experience/invisible.png');
+        this.load.image('base_tiles', 'personality game/assets/experience/[A]Grass1-Grass2_pipo.png')
+        this.load.image('bush_tiles', 'personality game/assets/experience/tree/tree.png')
+        this.load.image('yard_tiles', 'personality game/assets/experience/origion.png')
+        this.load.image('pussss_tiles', 'personality game/assets/experience/smoke/smoke.png')
+        this.load.tilemapTiledJSON('tilemap', 'personality game/assets/experience/base_tiles.json')
+        this.load.image('expIntroduce0','personality game/assets/experience/exp_introduce0.png');
+        this.load.image('expIntroduce1','personality game/assets/experience/exp_introduce1.png');
+        this.load.image('expIntroduce2','personality game/assets/experience/exp_introduce2.png');
+        this.load.image('expIntroduce3','personality game/assets/experience/exp_introduce3.png');
+        this.load.image('expIntroduce4','personality game/assets/experience/exp_introduce4.png');
+        this.load.image('expIntroduce5','personality game/assets/experience/exp_introduce5.png');
+		this.load.spritesheet('cards','personality game/assets/experience/Card.png',{
             frameWidth: 32,
             frameHeight: 32,
         });
-		this.load.spritesheet('CardStraight','Mental game/assets/experience/CardStraight.png',{
+		this.load.spritesheet('CardStraight','personality game/assets/experience/CardStraight.png',{
             frameWidth: 32,
             frameHeight: 32,
         });
-		this.load.spritesheet('alice','Mental game/assets/experience/Alice.png',{
+		this.load.spritesheet('alice','personality game/assets/experience/Alice.png',{
             frameWidth: 32,
             frameHeight: 32,
         });
-        this.load.audio('walk',['Mental game/assets/experience/aud/414336__mativve__walking-3.wav'])
-        this.load.audio('hurt',['Mental game/assets/experience/aud/371061__planetronik__video-game-bass.wav'])
-        this.load.tilemapTiledJSON('expmap', 'Mental game/assets/experience/maze.json');
+        this.load.audio('walk',['personality game/assets/experience/aud/414336__mativve__walking-3.wav'])
+        this.load.audio('hurt',['personality game/assets/experience/aud/371061__planetronik__video-game-bass.wav'])
+        this.load.tilemapTiledJSON('expmap', 'personality game/assets/experience/maze.json');
 
         //盡責性資源加載
-        this.load.image('conbg0','Mental game/assets/conscientiousness/back0.png');
-        this.load.image('conbg1','Mental game/assets/conscientiousness/back1.png');
-        this.load.image('conbg2','Mental game/assets/conscientiousness/back2.png');
-        this.load.image('platform','Mental game/assets/conscientiousness/platform.png');
-        this.load.image('contile','Mental game/assets/conscientiousness/ConTile.png');
+        this.load.image('conbg0','personality game/assets/conscientiousness/back0.png');
+        this.load.image('conbg1','personality game/assets/conscientiousness/back1.png');
+        this.load.image('conbg2','personality game/assets/conscientiousness/back2.png');
+        this.load.image('platform','personality game/assets/conscientiousness/platform.png');
+        this.load.image('contile','personality game/assets/conscientiousness/ConTile.png');
         this.load.image('brick','Mental game/assets/conscientiousness/Brick.png');
         this.load.image('brickbuild','Mental game/assets/conscientiousness/brickbuild.png');
         this.load.image('wood','Mental game/assets/conscientiousness/wood.png');
