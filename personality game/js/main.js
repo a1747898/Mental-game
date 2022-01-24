@@ -167,7 +167,7 @@ var load = {
 
         //開始畫面資源加載
         this.load.image('sbg','personality game/assets/start/startbackground.png');
-        this.load.image('title','personality game/assets/start/title.png');
+        this.load.image('title','personality game/assets/start/title2.png');
 		this.load.image('startbutton','personality game/assets/start/start.png');
 
         //主畫面資源加載
