@@ -384,7 +384,7 @@ var start = {
         bg.displayHeight = game.config.height;
         //添加標題
         var title = this.add.image(game.config.width*0.5,game.config.height*0.25, 'title'); 
-        title.setScale(0.3);
+        title.setScale(0.11);
         //開始選項
         /*
         var startbutton2 = this.add.sprite(game.config.width*0.5,game.config.height*0.5, 'startbutton2')
